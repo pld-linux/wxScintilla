@@ -11,11 +11,7 @@ Group:		Libraries
 Source0:	http://dl.sourceforge.net/wxcode/wxscintilla_%{version}.tar.gz
 # Source0-md5:	85ba8b79a21c92d7d702373f783b5bf2
 URL:		http://wxcode.sourceforge.net/components/wxscintilla/
-%if %{with unicode}
-BuildRequires:	wxGTK2-unicode-devel >= 2.6.1
-%else
-BuildRequires:	wxGTK2-devel >= 2.6.1
-%endif
+BuildRequires:	wxGTK2-%{?with_unicode:unicode-}devel >= 2.6.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	wxwidgets_ver	2.6
