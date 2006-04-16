@@ -36,7 +36,7 @@ Summary:	Header files for wxScintilla library
 Summary(pl):	Pliki nag³ówkowe biblioteki wxScintilla
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	wxWidgets-devel >= 2.6.1
+Requires:	wxGTK2-%{?with_unicode:unicode-}devel >= 2.6.1
 
 %description devel
 Header files for wxScintilla library.
