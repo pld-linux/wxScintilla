@@ -4,7 +4,7 @@
 %bcond_with	unicode		# use wx-gtk2-unicode-config instead of wx-gtk2-ansi-config
 #
 Summary:	wxScintilla - a wxWidgets implementation of the Scintilla editing control
-Summary(pl):	wxScintilla - implementacja kontrolki Scintilla dla wxWidgets
+Summary(pl.UTF-8):   wxScintilla - implementacja kontrolki Scintilla dla wxWidgets
 Name:		wxScintilla
 Version:	1.67.0
 Release:	1
@@ -24,16 +24,16 @@ wxWidgets API. It's derived from wxStyledTextCtrl (done by Robin Dunn)
 and has the same functionality and a similar API. The almost singular
 difference (beside naming) is it has a much faster release cycle.
 
-%description -l pl
-wxScintilla jest implementacj± kontrolki edycyjnej Scintilla
-wykorzystuj±c± API wxWidgets. Jest rozwiniÍciem wxStyledTextCtrl
-(napisanej przez Robina Dunna) i posiada tak± sam± funkcjonalno∂Ê oraz
-zbliøone API. Niemaløe jedyn± rÛønic± (poza nazw±) jest znacznie
+%description -l pl.UTF-8
+wxScintilla jest implementacjƒÖ kontrolki edycyjnej Scintilla
+wykorzystujƒÖcƒÖ API wxWidgets. Jest rozwiniƒôciem wxStyledTextCtrl
+(napisanej przez Robina Dunna) i posiada takƒÖ samƒÖ funkcjonalno≈õƒá oraz
+zbli≈ºone API. Niemal≈ºe jedynƒÖ r√≥≈ºnicƒÖ (poza nazwƒÖ) jest znacznie
 szybszy cykl wydawania nowych wersji.
 
 %package devel
 Summary:	Header files for wxScintilla library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki wxScintilla
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki wxScintilla
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	wxGTK2-%{?with_unicode:unicode-}devel >= 2.6.1
@@ -41,8 +41,8 @@ Requires:	wxGTK2-%{?with_unicode:unicode-}devel >= 2.6.1
 %description devel
 Header files for wxScintilla library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki wxScintilla.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki wxScintilla.
 
 %prep
 %setup -q -n wxscintilla_%{version}
