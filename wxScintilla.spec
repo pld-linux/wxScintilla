@@ -4,7 +4,7 @@
 %bcond_with	unicode		# use wx-gtk2-unicode-config instead of wx-gtk2-ansi-config
 #
 Summary:	wxScintilla - a wxWidgets implementation of the Scintilla editing control
-Summary(pl.UTF-8):   wxScintilla - implementacja kontrolki Scintilla dla wxWidgets
+Summary(pl.UTF-8):	wxScintilla - implementacja kontrolki Scintilla dla wxWidgets
 Name:		wxScintilla
 Version:	1.67.0
 Release:	1
@@ -33,7 +33,7 @@ szybszy cykl wydawania nowych wersji.
 
 %package devel
 Summary:	Header files for wxScintilla library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki wxScintilla
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki wxScintilla
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	wxGTK2-%{?with_unicode:unicode-}devel >= 2.6.1
