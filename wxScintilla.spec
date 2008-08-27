@@ -6,12 +6,12 @@
 Summary:	wxScintilla - a wxWidgets implementation of the Scintilla editing control
 Summary(pl.UTF-8):	wxScintilla - implementacja kontrolki Scintilla dla wxWidgets
 Name:		wxScintilla
-Version:	1.67.0
+Version:	1.69.2
 Release:	1
 License:	wxWindows
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/wxcode/wxscintilla_%{version}.tar.gz
-# Source0-md5:	85ba8b79a21c92d7d702373f783b5bf2
+# Source0-md5:	87c9ad26e576b59f37b4c36fc7aadb3c
 URL:		http://wxcode.sourceforge.net/components/wxscintilla/
 BuildRequires:	wxGTK2-%{?with_unicode:unicode-}devel >= 2.6.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
